@@ -32,6 +32,7 @@ function story(aName)
 	if(aName == "steeg") then
 	    CLS()
 	    setBackground("steeg.jpg")
+		playSound("stappen.wav")
 	    createTextfield("Aan het eind van het steegje zie je de zwerver die jouw kaart heeft")
 		createButton("zwerver", "Loop naar de zwerver toe")
     end

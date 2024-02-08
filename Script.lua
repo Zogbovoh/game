@@ -31,7 +31,7 @@ function story(aName)
 	end
 	if(aName == "steeg") then
 	    CLS()
-	    setBackground("steeg.jpeg")
+	    setBackground("steeg.jpg")
 	    createTextfield("Aan het eind van het steegje zie je de zwerver die jouw kaart heeft")
 		createButton("zwerver", "Loop naar de zwerver toe")
     end
